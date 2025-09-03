@@ -41,7 +41,7 @@ import yt_dlp
 
 # قراءة المتغيرات من البيئة (ضعها في Render أو محليًا)
 BOT_TOKEN = os.getenv("7574777696:AAEGdnY_RK0lPEQPxsvPSm8E7VSd8fQPO-w")  # توكن البوت من @BotFather (إلزامي)
-APP_URL   = os.getenv("APP_URL")    # مثال: https://your-app.onrender.com (اختياري محليًا، إلزامي على Render)
+APP_URL   = os.getenv("https://downloader-1-q7bv.onrender.com")    # مثال: https://your-app.onrender.com (اختياري محليًا، إلزامي على Render)
 PORT      = int(os.getenv("PORT", "8080"))  # Render يمرر المنفذ تلقائيًا
 
 # مجلد مؤقت لحفظ التنزيلات، يُنظَّف بعد الإرسال
